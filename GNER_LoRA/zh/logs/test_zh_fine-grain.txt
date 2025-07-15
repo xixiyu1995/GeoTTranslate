@@ -1,0 +1,45 @@
+E:\CONDA20241126\conda\envs\pytorch\python.exe F:\NLP\NERdata-open_youhua\test-fine.py
+Loading trained model...
+Loading checkpoint shards: 100%|██████████| 2/2 [00:04<00:00,  2.14s/it]
+测试集样本数: 1081
+Predicting: 100%|██████████| 136/136 [41:37<00:00, 18.36s/it]
+全部预测结果已保存至: prediction_results_all_1081_fine-grain.xlsx
+
+>>>> compute_metrics called <<<<
+
+评估指标:
+精度 (Precision): 0.9393
+召回率 (Recall): 0.937
+F1 值: 0.9382
+
+完整结果字典:
+{
+  "precision": 0.9393,
+  "recall": 0.937,
+  "f1": 0.9382
+}
+
+前3个样本的预测结果:
+
+样本 1:
+{'role': 'system', 'content': "你是一个文本实体识别领域的专家，你需要从给定的句子中提取 矿物；岩石；地层；地质年代；地质构造；地名实体. 以 json 格式输出, 如 {'entity_text': '寒武系', 'entity_label': '地层'} 注意: 1. 输出的每一行都必须是正确的 json 字符串. 2. 找不到任何实体时, 输出'没有找到任何实体'. "}
+
+{'role': 'user', 'content': '文本:在较低的压力下，600~700º的变质条件足以使花岗质物质发生熔融，混合岩化是叠加在角闪岩相（局部麻粒岩相）区域变质基础上形成的，其形成时间比后者稍晚，而高州表壳岩组合角闪岩相（局部麻粒岩相）变质时代为晋宁期，故混合岩化应为晋宁晚期。'}
+
+{'role': 'assistant', 'content': "{'entity_text': '混合岩', 'entity_label': '岩石'}{'entity_text': '角闪岩', 'entity_label': '岩石'}{'entity_text': '麻粒岩', 'entity_label': '岩石'}{'entity_text': '高州表壳岩', 'entity_label': '岩石'}{'entity_text': '角闪岩', 'entity_label': '岩石'}{'entity_text': '麻粒岩', 'entity_label': '岩石'}{'entity_text': '晋宁期', 'entity_label': '地质年代'}{'entity_text': '混合岩', 'entity_label': '岩石'}{'entity_text': '晋宁晚期', 'entity_label': '地质年代'}"}
+
+样本 2:
+{'role': 'system', 'content': "你是一个文本实体识别领域的专家，你需要从给定的句子中提取 矿物；岩石；地层；地质年代；地质构造；地名实体. 以 json 格式输出, 如 {'entity_text': '寒武系', 'entity_label': '地层'} 注意: 1. 输出的每一行都必须是正确的 json 字符串. 2. 找不到任何实体时, 输出'没有找到任何实体'. "}
+
+{'role': 'user', 'content': '文本:横向上岩性变化较大：在高要，下部为砾岩、砂砾岩、含砾砂岩，主要煤层位于中下部。'}
+
+{'role': 'assistant', 'content': "{'entity_text': '砾岩', 'entity_label': '岩石'}{'entity_text': '砂砾岩', 'entity_label': '岩石'}{'entity_text': '含砾砂岩', 'entity_label': '岩石'}"}
+
+样本 3:
+{'role': 'system', 'content': "你是一个文本实体识别领域的专家，你需要从给定的句子中提取 矿物；岩石；地层；地质年代；地质构造；地名实体. 以 json 格式输出, 如 {'entity_text': '寒武系', 'entity_label': '地层'} 注意: 1. 输出的每一行都必须是正确的 json 字符串. 2. 找不到任何实体时, 输出'没有找到任何实体'. "}
+
+{'role': 'user', 'content': '文本:侵入体中围岩捕虏体仅分布在岩体与围岩的接触带附近，岩浆期后矿化较强，岩体结构以中细粒为主，并出现浅成相的闪长玢岩，据上特征推测该期次各侵入体的剥蚀深度为中－浅剥蚀。'}
+
+{'role': 'assistant', 'content': "{'entity_text': '围岩', 'entity_label': '岩石'}{'entity_text': '围岩', 'entity_label': '岩石'}{'entity_text': '闪长玢岩', 'entity_label': '岩石'}"}
+
+Process finished with exit code 0
