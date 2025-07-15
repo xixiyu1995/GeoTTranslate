@@ -1,0 +1,904 @@
+2025-06-14 04:51:52,469 - main - INFO - <module> - 46 : Using device cuda
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              2025-06-14 04:52:41,526 - main.utils - INFO - compute_f1 - 142 :
+              precision    recall  f1-score   support
+
+         GTM     0.9587    0.9952    0.9766       210
+         LOC     0.9628    0.9803    0.9715      1927
+         MIN     0.9731    0.9864    0.9797      2055
+         ODE     0.9080    0.9684    0.9372       316
+         ROC     0.9683    0.9849    0.9765      2509
+         STR     0.9318    0.9541    0.9428       501
+
+   micro avg     0.9628    0.9816    0.9721      7518
+   macro avg     0.9504    0.9782    0.9640      7518
+weighted avg     0.9630    0.9816    0.9722      7518
+
+2025-06-14 04:52:41,527 - main.utils - INFO - compute_f1 - 143 : F1 : 0.9721398933017189, accuracy : 0.9951998354229288, precision : 0.9628180039138943, recall : 0.9816440542697525
+2025-06-14 04:52:42,322 - main - INFO - train - 175 : Previous f1 score is 0.9719182597231378 and current f1 score is 0.9721398933017189, best model has been saved in saved_models/pytorch_model.bin
+2025-06-14 04:52:48,636 - main - INFO - train - 164 : Epoch : 4, global_step : 4033/4030, loss_value : 0.8599823676281094
+
+E:\CONDA20241126\conda\envs\pytorch\python.exe E:\Desktop\引用代码合集-NER\NER-en-bert\my\run_bert_lstm_crf.py
+2025-06-14 03:07:39,033 - main - INFO - <module> - 46 : Using device cuda
+INFO:main:Using device cuda
+2025-06-14 03:07:39,034 - main - INFO - main - 218 : save_dir not exists, created!
+INFO:main:save_dir not exists, created!
+2025-06-14 03:07:39,600 - main - INFO - main - 224 : train sentences num : 25818
+INFO:main:train sentences num : 25818
+2025-06-14 03:07:39,600 - main - INFO - main - 225 : test sentences num : 3227
+INFO:main:test sentences num : 3227
+2025-06-14 03:07:39,601 - main - INFO - main - 226 : Logging some examples...
+INFO:main:Logging some examples...
+2025-06-14 03:07:39,601 - main - INFO - main - 231 : Sentence 2619:
+INFO:main:Sentence 2619:
+2025-06-14 03:07:39,601 - main - INFO - main - 233 : Word: however  Tag: O
+INFO:main:Word: however  Tag: O
+2025-06-14 03:07:39,601 - main - INFO - main - 233 : Word: ,  Tag: O
+INFO:main:Word: ,  Tag: O
+2025-06-14 03:07:39,601 - main - INFO - main - 233 : Word: tyler  Tag: O
+INFO:main:Word: tyler  Tag: O
+2025-06-14 03:07:39,601 - main - INFO - main - 233 : Word: (  Tag: O
+INFO:main:Word: (  Tag: O
+2025-06-14 03:07:39,601 - main - INFO - main - 233 : Word: 1991  Tag: O
+INFO:main:Word: 1991  Tag: O
+2025-06-14 03:07:39,601 - main - INFO - main - 233 : Word: )  Tag: O
+INFO:main:Word: )  Tag: O
+2025-06-14 03:07:39,601 - main - INFO - main - 233 : Word: records  Tag: O
+INFO:main:Word: records  Tag: O
+2025-06-14 03:07:39,601 - main - INFO - main - 233 : Word: that  Tag: O
+INFO:main:Word: that  Tag: O
+2025-06-14 03:07:39,601 - main - INFO - main - 233 : Word: the  Tag: O
+INFO:main:Word: the  Tag: O
+2025-06-14 03:07:39,601 - main - INFO - main - 233 : Word: umv  Tag: O
+INFO:main:Word: umv  Tag: O
+2025-06-14 03:07:39,602 - main - INFO - main - 233 : Word: in  Tag: O
+INFO:main:Word: in  Tag: O
+2025-06-14 03:07:39,602 - main - INFO - main - 233 : Word: the  Tag: O
+INFO:main:Word: the  Tag: O
+2025-06-14 03:07:39,602 - main - INFO - main - 233 : Word: outcamp  Tag: O
+INFO:main:Word: outcamp  Tag: O
+2025-06-14 03:07:39,602 - main - INFO - main - 233 : Word: well  Tag: O
+INFO:main:Word: well  Tag: O
+2025-06-14 03:07:39,602 - main - INFO - main - 233 : Word: succession  Tag: O
+INFO:main:Word: succession  Tag: O
+2025-06-14 03:07:39,602 - main - INFO - main - 233 : Word: is  Tag: O
+INFO:main:Word: is  Tag: O
+2025-06-14 03:07:39,602 - main - INFO - main - 233 : Word: comprised  Tag: O
+INFO:main:Word: comprised  Tag: O
+2025-06-14 03:07:39,602 - main - INFO - main - 233 : Word: of  Tag: O
+INFO:main:Word: of  Tag: O
+2025-06-14 03:07:39,602 - main - INFO - main - 233 : Word: a  Tag: O
+INFO:main:Word: a  Tag: O
+2025-06-14 03:07:39,602 - main - INFO - main - 233 : Word: sequence  Tag: O
+INFO:main:Word: sequence  Tag: O
+2025-06-14 03:07:39,602 - main - INFO - main - 233 : Word: of  Tag: O
+INFO:main:Word: of  Tag: O
+2025-06-14 03:07:39,602 - main - INFO - main - 233 : Word: massive  Tag: O
+INFO:main:Word: massive  Tag: O
+2025-06-14 03:07:39,602 - main - INFO - main - 233 : Word: and  Tag: O
+INFO:main:Word: and  Tag: O
+2025-06-14 03:07:39,602 - main - INFO - main - 233 : Word: amygdaloidal  Tag: O
+INFO:main:Word: amygdaloidal  Tag: O
+2025-06-14 03:07:39,602 - main - INFO - main - 233 : Word: metabasalts  Tag: S-ROC
+INFO:main:Word: metabasalts  Tag: S-ROC
+2025-06-14 03:07:39,602 - main - INFO - main - 233 : Word: and  Tag: O
+INFO:main:Word: and  Tag: O
+2025-06-14 03:07:39,603 - main - INFO - main - 233 : Word: mafic  Tag: B-ROC
+INFO:main:Word: mafic  Tag: B-ROC
+2025-06-14 03:07:39,603 - main - INFO - main - 233 : Word: tuffs  Tag: E-ROC
+INFO:main:Word: tuffs  Tag: E-ROC
+2025-06-14 03:07:39,603 - main - INFO - main - 233 : Word: of  Tag: O
+INFO:main:Word: of  Tag: O
+2025-06-14 03:07:39,603 - main - INFO - main - 233 : Word: variable  Tag: O
+INFO:main:Word: variable  Tag: O
+2025-06-14 03:07:39,603 - main - INFO - main - 233 : Word: lateral  Tag: O
+INFO:main:Word: lateral  Tag: O
+2025-06-14 03:07:39,603 - main - INFO - main - 233 : Word: extent  Tag: O
+INFO:main:Word: extent  Tag: O
+2025-06-14 03:07:39,603 - main - INFO - main - 233 : Word: .  Tag: O
+INFO:main:Word: .  Tag: O
+2025-06-14 03:07:39,603 - main - INFO - main - 234 : --------------------------------------------------
+INFO:main:--------------------------------------------------
+2025-06-14 03:07:39,603 - main - INFO - main - 231 : Sentence 456:
+INFO:main:Sentence 456:
+2025-06-14 03:07:39,604 - main - INFO - main - 233 : Word: 10  Tag: O
+INFO:main:Word: 10  Tag: O
+2025-06-14 03:07:39,604 - main - INFO - main - 233 : Word: nickel  Tag: S-MIN
+INFO:main:Word: nickel  Tag: S-MIN
+2025-06-14 03:07:39,604 - main - INFO - main - 233 : Word: em  Tag: O
+INFO:main:Word: em  Tag: O
+2025-06-14 03:07:39,604 - main - INFO - main - 233 : Word: conductor  Tag: O
+INFO:main:Word: conductor  Tag: O
+2025-06-14 03:07:39,604 - main - INFO - main - 233 : Word: holes  Tag: O
+INFO:main:Word: holes  Tag: O
+2025-06-14 03:07:39,604 - main - INFO - main - 233 : Word: 2  Tag: O
+INFO:main:Word: 2  Tag: O
+2025-06-14 03:07:39,604 - main - INFO - main - 233 : Word: holes  Tag: O
+INFO:main:Word: holes  Tag: O
+2025-06-14 03:07:39,604 - main - INFO - main - 233 : Word: for  Tag: O
+INFO:main:Word: for  Tag: O
+2025-06-14 03:07:39,604 - main - INFO - main - 233 : Word: 138  Tag: O
+INFO:main:Word: 138  Tag: O
+2025-06-14 03:07:39,604 - main - INFO - main - 233 : Word: m  Tag: O
+INFO:main:Word: m  Tag: O
+2025-06-14 03:07:39,604 - main - INFO - main - 233 : Word: were  Tag: O
+INFO:main:Word: were  Tag: O
+2025-06-14 03:07:39,604 - main - INFO - main - 233 : Word: drilled  Tag: O
+INFO:main:Word: drilled  Tag: O
+2025-06-14 03:07:39,604 - main - INFO - main - 233 : Word: to  Tag: O
+INFO:main:Word: to  Tag: O
+2025-06-14 03:07:39,604 - main - INFO - main - 233 : Word: test  Tag: O
+INFO:main:Word: test  Tag: O
+2025-06-14 03:07:39,605 - main - INFO - main - 233 : Word: an  Tag: O
+INFO:main:Word: an  Tag: O
+2025-06-14 03:07:39,605 - main - INFO - main - 233 : Word: em  Tag: O
+INFO:main:Word: em  Tag: O
+2025-06-14 03:07:39,605 - main - INFO - main - 233 : Word: anomaly  Tag: O
+INFO:main:Word: anomaly  Tag: O
+2025-06-14 03:07:39,605 - main - INFO - main - 233 : Word: near  Tag: O
+INFO:main:Word: near  Tag: O
+2025-06-14 03:07:39,605 - main - INFO - main - 233 : Word: the  Tag: O
+INFO:main:Word: the  Tag: O
+2025-06-14 03:07:39,605 - main - INFO - main - 233 : Word: ultramafic  Tag: B-ROC
+INFO:main:Word: ultramafic  Tag: B-ROC
+2025-06-14 03:07:39,605 - main - INFO - main - 233 : Word: sediment  Tag: E-ROC
+INFO:main:Word: sediment  Tag: E-ROC
+2025-06-14 03:07:39,605 - main - INFO - main - 233 : Word: contact  Tag: O
+INFO:main:Word: contact  Tag: O
+2025-06-14 03:07:39,605 - main - INFO - main - 233 : Word: .  Tag: O
+INFO:main:Word: .  Tag: O
+2025-06-14 03:07:39,605 - main - INFO - main - 234 : --------------------------------------------------
+INFO:main:--------------------------------------------------
+2025-06-14 03:07:39,605 - main - INFO - main - 231 : Sentence 102:
+INFO:main:Sentence 102:
+2025-06-14 03:07:39,605 - main - INFO - main - 233 : Word: the  Tag: O
+INFO:main:Word: the  Tag: O
+2025-06-14 03:07:39,605 - main - INFO - main - 233 : Word: duketon  Tag: O
+INFO:main:Word: duketon  Tag: O
+2025-06-14 03:07:39,605 - main - INFO - main - 233 : Word: and  Tag: O
+INFO:main:Word: and  Tag: O
+2025-06-14 03:07:39,605 - main - INFO - main - 233 : Word: laverton  Tag: B-STR
+INFO:main:Word: laverton  Tag: B-STR
+2025-06-14 03:07:39,605 - main - INFO - main - 233 : Word: greenstone  Tag: I-STR
+INFO:main:Word: greenstone  Tag: I-STR
+2025-06-14 03:07:39,606 - main - INFO - main - 233 : Word: belts  Tag: E-STR
+INFO:main:Word: belts  Tag: E-STR
+2025-06-14 03:07:39,606 - main - INFO - main - 233 : Word: are  Tag: O
+INFO:main:Word: are  Tag: O
+2025-06-14 03:07:39,606 - main - INFO - main - 233 : Word: linear  Tag: O
+INFO:main:Word: linear  Tag: O
+2025-06-14 03:07:39,606 - main - INFO - main - 233 : Word: to  Tag: O
+INFO:main:Word: to  Tag: O
+2025-06-14 03:07:39,606 - main - INFO - main - 233 : Word: arcuate  Tag: O
+INFO:main:Word: arcuate  Tag: O
+2025-06-14 03:07:39,606 - main - INFO - main - 233 : Word: north  Tag: O
+INFO:main:Word: north  Tag: O
+2025-06-14 03:07:39,606 - main - INFO - main - 233 : Word: northwesterly  Tag: O
+INFO:main:Word: northwesterly  Tag: O
+2025-06-14 03:07:39,606 - main - INFO - main - 233 : Word: trending  Tag: O
+INFO:main:Word: trending  Tag: O
+2025-06-14 03:07:39,606 - main - INFO - main - 233 : Word: belts  Tag: O
+INFO:main:Word: belts  Tag: O
+2025-06-14 03:07:39,606 - main - INFO - main - 233 : Word: of  Tag: O
+INFO:main:Word: of  Tag: O
+2025-06-14 03:07:39,606 - main - INFO - main - 233 : Word: supercrustal  Tag: O
+INFO:main:Word: supercrustal  Tag: O
+2025-06-14 03:07:39,606 - main - INFO - main - 233 : Word: rocks  Tag: O
+INFO:main:Word: rocks  Tag: O
+2025-06-14 03:07:39,606 - main - INFO - main - 233 : Word: bounded  Tag: O
+INFO:main:Word: bounded  Tag: O
+2025-06-14 03:07:39,606 - main - INFO - main - 233 : Word: within  Tag: O
+INFO:main:Word: within  Tag: O
+2025-06-14 03:07:39,606 - main - INFO - main - 233 : Word: granitic  Tag: B-ROC
+INFO:main:Word: granitic  Tag: B-ROC
+2025-06-14 03:07:39,606 - main - INFO - main - 233 : Word: rocks  Tag: E-ROC
+INFO:main:Word: rocks  Tag: E-ROC
+2025-06-14 03:07:39,607 - main - INFO - main - 233 : Word: .  Tag: O
+INFO:main:Word: .  Tag: O
+2025-06-14 03:07:39,607 - main - INFO - main - 234 : --------------------------------------------------
+INFO:main:--------------------------------------------------
+2025-06-14 03:07:39,607 - main - INFO - main - 231 : Sentence 3037:
+INFO:main:Sentence 3037:
+2025-06-14 03:07:39,607 - main - INFO - main - 233 : Word: work  Tag: O
+INFO:main:Word: work  Tag: O
+2025-06-14 03:07:39,607 - main - INFO - main - 233 : Word: conducted  Tag: O
+INFO:main:Word: conducted  Tag: O
+2025-06-14 03:07:39,607 - main - INFO - main - 233 : Word: on  Tag: O
+INFO:main:Word: on  Tag: O
+2025-06-14 03:07:39,607 - main - INFO - main - 233 : Word: the  Tag: O
+INFO:main:Word: the  Tag: O
+2025-06-14 03:07:39,607 - main - INFO - main - 233 : Word: tenements  Tag: O
+INFO:main:Word: tenements  Tag: O
+2025-06-14 03:07:39,607 - main - INFO - main - 233 : Word: during  Tag: O
+INFO:main:Word: during  Tag: O
+2025-06-14 03:07:39,607 - main - INFO - main - 233 : Word: the  Tag: O
+INFO:main:Word: the  Tag: O
+2025-06-14 03:07:39,607 - main - INFO - main - 233 : Word: reporting  Tag: O
+INFO:main:Word: reporting  Tag: O
+2025-06-14 03:07:39,607 - main - INFO - main - 233 : Word: period  Tag: O
+INFO:main:Word: period  Tag: O
+2025-06-14 03:07:39,607 - main - INFO - main - 233 : Word: targeted  Tag: O
+INFO:main:Word: targeted  Tag: O
+2025-06-14 03:07:39,607 - main - INFO - main - 233 : Word: gold  Tag: S-MIN
+INFO:main:Word: gold  Tag: S-MIN
+2025-06-14 03:07:39,607 - main - INFO - main - 233 : Word: and  Tag: O
+INFO:main:Word: and  Tag: O
+2025-06-14 03:07:39,607 - main - INFO - main - 233 : Word: nickel  Tag: S-MIN
+INFO:main:Word: nickel  Tag: S-MIN
+2025-06-14 03:07:39,608 - main - INFO - main - 233 : Word: and  Tag: O
+INFO:main:Word: and  Tag: O
+2025-06-14 03:07:39,608 - main - INFO - main - 233 : Word: was  Tag: O
+INFO:main:Word: was  Tag: O
+2025-06-14 03:07:39,608 - main - INFO - main - 233 : Word: completed  Tag: O
+INFO:main:Word: completed  Tag: O
+2025-06-14 03:07:39,608 - main - INFO - main - 233 : Word: by  Tag: O
+INFO:main:Word: by  Tag: O
+2025-06-14 03:07:39,608 - main - INFO - main - 233 : Word: heron  Tag: O
+INFO:main:Word: heron  Tag: O
+2025-06-14 03:07:39,608 - main - INFO - main - 233 : Word: resources  Tag: O
+INFO:main:Word: resources  Tag: O
+2025-06-14 03:07:39,608 - main - INFO - main - 233 : Word: limited  Tag: O
+INFO:main:Word: limited  Tag: O
+2025-06-14 03:07:39,608 - main - INFO - main - 233 : Word: (  Tag: O
+INFO:main:Word: (  Tag: O
+2025-06-14 03:07:39,608 - main - INFO - main - 233 : Word: heron  Tag: O
+INFO:main:Word: heron  Tag: O
+2025-06-14 03:07:39,608 - main - INFO - main - 233 : Word: )  Tag: O
+INFO:main:Word: )  Tag: O
+2025-06-14 03:07:39,608 - main - INFO - main - 233 : Word: .  Tag: O
+INFO:main:Word: .  Tag: O
+2025-06-14 03:07:39,608 - main - INFO - main - 234 : --------------------------------------------------
+INFO:main:--------------------------------------------------
+2025-06-14 03:07:39,608 - main - INFO - main - 231 : Sentence 1126:
+INFO:main:Sentence 1126:
+2025-06-14 03:07:39,608 - main - INFO - main - 233 : Word: dolomitic  Tag: O
+INFO:main:Word: dolomitic  Tag: O
+2025-06-14 03:07:39,608 - main - INFO - main - 233 : Word: horizons  Tag: O
+INFO:main:Word: horizons  Tag: O
+2025-06-14 03:07:39,609 - main - INFO - main - 233 : Word: are  Tag: O
+INFO:main:Word: are  Tag: O
+2025-06-14 03:07:39,609 - main - INFO - main - 233 : Word: common  Tag: O
+INFO:main:Word: common  Tag: O
+2025-06-14 03:07:39,609 - main - INFO - main - 233 : Word: as  Tag: O
+INFO:main:Word: as  Tag: O
+2025-06-14 03:07:39,609 - main - INFO - main - 233 : Word: are  Tag: O
+INFO:main:Word: are  Tag: O
+2025-06-14 03:07:39,609 - main - INFO - main - 233 : Word: chert  Tag: S-ROC
+INFO:main:Word: chert  Tag: S-ROC
+2025-06-14 03:07:39,609 - main - INFO - main - 233 : Word: horizons  Tag: O
+INFO:main:Word: horizons  Tag: O
+2025-06-14 03:07:39,609 - main - INFO - main - 233 : Word: .  Tag: O
+INFO:main:Word: .  Tag: O
+2025-06-14 03:07:39,609 - main - INFO - main - 234 : --------------------------------------------------
+INFO:main:--------------------------------------------------
+2025-06-14 03:07:39,641 - main.utils - INFO - get_ent_tags - 90 : Extracted tags: ['S-GTM', 'S-ROC', 'O', 'E-ROC', 'E-ODE', 'I-ROC', 'E-STR', 'I-MIN', 'E-LOC', 'B-ROC', 'B-STR', 'E-GTM', 'E-MIN', 'I-LOC', 'I-STR', 'S-STR', 'B-MIN', 'B-ODE', 'S-LOC', 'S-MIN', 'I-ODE', 'B-LOC', 'B-GTM', 'S-ODE']
+INFO:main.utils:Extracted tags: ['S-GTM', 'S-ROC', 'O', 'E-ROC', 'E-ODE', 'I-ROC', 'E-STR', 'I-MIN', 'E-LOC', 'B-ROC', 'B-STR', 'E-GTM', 'E-MIN', 'I-LOC', 'I-STR', 'S-STR', 'B-MIN', 'B-ODE', 'S-LOC', 'S-MIN', 'I-ODE', 'B-LOC', 'B-GTM', 'S-ODE']
+2025-06-14 03:07:39,641 - main - INFO - main - 241 : Complete tag set: ['O', 'S-GTM', 'S-ROC', 'E-ROC', 'E-ODE', 'I-ROC', 'E-STR', 'I-MIN', 'E-LOC', 'B-ROC', 'B-STR', 'E-GTM', 'E-MIN', 'I-LOC', 'I-STR', 'S-STR', 'B-MIN', 'B-ODE', 'S-LOC', 'S-MIN', 'I-ODE', 'B-LOC', 'B-GTM', 'S-ODE'], length: 24
+INFO:main:Complete tag set: ['O', 'S-GTM', 'S-ROC', 'E-ROC', 'E-ODE', 'I-ROC', 'E-STR', 'I-MIN', 'E-LOC', 'B-ROC', 'B-STR', 'E-GTM', 'E-MIN', 'I-LOC', 'I-STR', 'S-STR', 'B-MIN', 'B-ODE', 'S-LOC', 'S-MIN', 'I-ODE', 'B-LOC', 'B-GTM', 'S-ODE'], length: 24
+2025-06-14 03:07:39,642 - main - INFO - main - 247 : Tag scheme : S-GTM S-ROC E-ROC E-ODE I-ROC E-STR I-MIN E-LOC B-ROC B-STR E-GTM E-MIN I-LOC I-STR S-STR B-MIN B-ODE S-LOC S-MIN I-ODE B-LOC B-GTM S-ODE
+INFO:main:Tag scheme : S-GTM S-ROC E-ROC E-ODE I-ROC E-STR I-MIN E-LOC B-ROC B-STR E-GTM E-MIN I-LOC I-STR S-STR B-MIN B-ODE S-LOC S-MIN I-ODE B-LOC B-GTM S-ODE
+2025-06-14 03:07:39,642 - main - INFO - main - 248 : Tag has been saved in saved_models/label.json
+INFO:main:Tag has been saved in saved_models/label.json
+2025-06-14 03:07:39,642 - main - INFO - main - 251 : Tag encoder classes: ['B-GTM' 'B-LOC' 'B-MIN' 'B-ODE' 'B-ROC' 'B-STR' 'E-GTM' 'E-LOC' 'E-MIN'
+ 'E-ODE' 'E-ROC' 'E-STR' 'I-LOC' 'I-MIN' 'I-ODE' 'I-ROC' 'I-STR' 'O'
+ 'S-GTM' 'S-LOC' 'S-MIN' 'S-ODE' 'S-ROC' 'S-STR']
+INFO:main:Tag encoder classes: ['B-GTM' 'B-LOC' 'B-MIN' 'B-ODE' 'B-ROC' 'B-STR' 'E-GTM' 'E-LOC' 'E-MIN'
+ 'E-ODE' 'E-ROC' 'E-STR' 'I-LOC' 'I-MIN' 'I-ODE' 'I-ROC' 'I-STR' 'O'
+ 'S-GTM' 'S-LOC' 'S-MIN' 'S-ODE' 'S-ROC' 'S-STR']
+2025-06-14 03:07:39,835 - main - INFO - main - 286 : model_type:lstm
+INFO:main:model_type:lstm
+2025-06-14 03:07:39,835 - main - INFO - main - 286 : model_name_or_path:bert-base-multilingual-cased
+INFO:main:model_name_or_path:bert-base-multilingual-cased
+2025-06-14 03:07:39,835 - main - INFO - main - 286 : file_path:data/000
+INFO:main:file_path:data/000
+2025-06-14 03:07:39,835 - main - INFO - main - 286 : save_dir:saved_models/
+INFO:main:save_dir:saved_models/
+2025-06-14 03:07:39,835 - main - INFO - main - 286 : ckpt:None
+INFO:main:ckpt:None
+2025-06-14 03:07:39,835 - main - INFO - main - 286 : learning_rate:3e-05
+INFO:main:learning_rate:3e-05
+2025-06-14 03:07:39,835 - main - INFO - main - 286 : weight_decay:0.01
+INFO:main:weight_decay:0.01
+2025-06-14 03:07:39,836 - main - INFO - main - 286 : epochs:5
+INFO:main:epochs:5
+2025-06-14 03:07:39,836 - main - INFO - main - 286 : train_batch_size:32
+INFO:main:train_batch_size:32
+2025-06-14 03:07:39,836 - main - INFO - main - 286 : gradient_accumulation_steps:1
+INFO:main:gradient_accumulation_steps:1
+2025-06-14 03:07:39,836 - main - INFO - main - 286 : lstm_hidden_size:256
+INFO:main:lstm_hidden_size:256
+2025-06-14 03:07:39,836 - main - INFO - main - 286 : test_batch_size:32
+INFO:main:test_batch_size:32
+2025-06-14 03:07:39,836 - main - INFO - main - 286 : max_grad_norm:1
+INFO:main:max_grad_norm:1
+2025-06-14 03:07:39,836 - main - INFO - main - 286 : warmup_proportion:0.1
+INFO:main:warmup_proportion:0.1
+2025-06-14 03:07:39,836 - main - INFO - main - 286 : max_len:256
+INFO:main:max_len:256
+2025-06-14 03:07:39,836 - main - INFO - main - 286 : patience:100
+INFO:main:patience:100
+2025-06-14 03:07:39,836 - main - INFO - main - 286 : seed:42
+INFO:main:seed:42
+2025-06-14 03:07:39,836 - main - INFO - main - 286 : num_workers:4
+INFO:main:num_workers:4
+2025-06-14 03:07:39,836 - main - INFO - main - 286 : take_longest_token:False
+INFO:main:take_longest_token:False
+2025-06-14 03:07:39,837 - main - INFO - train - 83 : n_tags : 24
+INFO:main:n_tags : 24
+2025-06-14 03:07:39,837 - main - INFO - train - 87 : Under an epoch, loss will be output every 161 step, and the model will be evaluated every 400 step
+INFO:main:Under an epoch, loss will be output every 161 step, and the model will be evaluated every 400 step
+2025-06-14 03:07:42,644 - main - INFO - train - 98 : Using device : cuda
+INFO:main:Using device : cuda
+2025-06-14 03:07:42,645 - main - INFO - train - 104 : num_train_steps : 4030, warmup_proportion : 0.1, warmup_steps : 403
+INFO:main:num_train_steps : 4030, warmup_proportion : 0.1, warmup_steps : 403
+2025-06-14 03:07:42,645 - main - INFO - predict - 50 : Evaluating the model...
+INFO:main:Evaluating the model...
+2025-06-14 03:07:46,972 - main - INFO - <module> - 46 : Using device cuda
+INFO:main:Using device cuda
+2025-06-14 03:07:51,440 - main - INFO - <module> - 46 : Using device cuda
+INFO:main:Using device cuda
+2025-06-14 03:07:55,894 - main - INFO - <module> - 46 : Using device cuda
+INFO:main:Using device cuda
+2025-06-14 03:08:00,270 - main - INFO - <module> - 46 : Using device cuda
+INFO:main:Using device cuda
+2025-06-14 03:08:48,504 - main.utils - INFO - compute_f1 - 142 :
+              precision    recall  f1-score   support
+
+         GTM     0.0001    0.0048    0.0001       210
+         LOC     0.0248    0.0680    0.0363      1927
+         MIN     0.0253    0.3946    0.0476      2055
+         ODE     0.0068    0.0949    0.0127       316
+         ROC     0.0204    0.1371    0.0355      2509
+         STR     0.0000    0.0000    0.0000       501
+
+   micro avg     0.0166    0.1752    0.0303      7518
+   macro avg     0.0129    0.1166    0.0220      7518
+weighted avg     0.0204    0.1752    0.0347      7518
+
+INFO:main.utils:
+              precision    recall  f1-score   support
+
+         GTM     0.0001    0.0048    0.0001       210
+         LOC     0.0248    0.0680    0.0363      1927
+         MIN     0.0253    0.3946    0.0476      2055
+         ODE     0.0068    0.0949    0.0127       316
+         ROC     0.0204    0.1371    0.0355      2509
+         STR     0.0000    0.0000    0.0000       501
+
+   micro avg     0.0166    0.1752    0.0303      7518
+   macro avg     0.0129    0.1166    0.0220      7518
+weighted avg     0.0204    0.1752    0.0347      7518
+
+2025-06-14 03:08:48,505 - main.utils - INFO - compute_f1 - 143 : F1 : 0.03026160085476959, accuracy : 0.03363543892933472, precision : 0.016561246431849905, recall : 0.17517956903431764
+INFO:main.utils:F1 : 0.03026160085476959, accuracy : 0.03363543892933472, precision : 0.016561246431849905, recall : 0.17517956903431764
+2025-06-14 03:08:48,505 - main - INFO - train - 118 : Previous f1 score is -1 and current f1 score is 0.03026160085476959
+INFO:main:Previous f1 score is -1 and current f1 score is 0.03026160085476959
+Epoch 1/5:   0%|          | 0/807 [00:00<?, ?batch/s]2025-06-14 03:08:52,844 - main - INFO - <module> - 46 : Using device cuda
+INFO:main:Using device cuda
+2025-06-14 03:08:57,355 - main - INFO - <module> - 46 : Using device cuda
+INFO:main:Using device cuda
+2025-06-14 03:09:01,916 - main - INFO - <module> - 46 : Using device cuda
+INFO:main:Using device cuda
+2025-06-14 03:09:06,440 - main - INFO - <module> - 46 : Using device cuda
+INFO:main:Using device cuda
+Epoch 1/5:  20%|█▉        | 161/807 [03:58<14:38,  1.36s/batch, Epoch Progress=20.0%, Overall=4.0%, Loss=61.8453]2025-06-14 03:12:47,458 - main - INFO - train - 164 : Epoch : 0, global_step : 161/4030, loss_value : 61.845261532327406
+INFO:main:Epoch : 0, global_step : 161/4030, loss_value : 61.845261532327406
+Epoch 1/5:  40%|███▉      | 322/807 [07:40<11:56,  1.48s/batch, Epoch Progress=39.9%, Overall=8.0%, Loss=11.5581]2025-06-14 03:16:28,829 - main - INFO - train - 164 : Epoch : 0, global_step : 322/4030, loss_value : 23.116294742370986
+INFO:main:Epoch : 0, global_step : 322/4030, loss_value : 23.116294742370986
+Epoch 1/5:  50%|████▉     | 400/807 [09:27<09:05,  1.34s/batch, Epoch Progress=49.6%, Overall=9.9%, Loss=2.6545]2025-06-14 03:18:15,854 - main - INFO - predict - 50 : Evaluating the model...
+INFO:main:Evaluating the model...
+2025-06-14 03:18:20,235 - main - INFO - <module> - 46 : Using device cuda
+INFO:main:Using device cuda
+2025-06-14 03:18:24,611 - main - INFO - <module> - 46 : Using device cuda
+INFO:main:Using device cuda
+2025-06-14 03:18:29,025 - main - INFO - <module> - 46 : Using device cuda
+INFO:main:Using device cuda
+2025-06-14 03:18:33,425 - main - INFO - <module> - 46 : Using device cuda
+INFO:main:Using device cuda
+E:\CONDA20241126\conda\envs\pytorch\lib\site-packages\seqeval\metrics\v1.py:57: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+2025-06-14 03:19:21,701 - main.utils - INFO - compute_f1 - 142 :
+              precision    recall  f1-score   support
+
+         GTM     0.8750    0.6000    0.7119       210
+         LOC     0.4808    0.5916    0.5305      1927
+         MIN     0.7173    0.9460    0.8159      2055
+         ODE     0.0000    0.0000    0.0000       316
+         ROC     0.5869    0.7513    0.6590      2509
+         STR     0.0000    0.0000    0.0000       501
+
+   micro avg     0.5603    0.6777    0.6134      7518
+   macro avg     0.4433    0.4815    0.4529      7518
+weighted avg     0.5396    0.6777    0.5988      7518
+
+INFO:main.utils:
+              precision    recall  f1-score   support
+
+         GTM     0.8750    0.6000    0.7119       210
+         LOC     0.4808    0.5916    0.5305      1927
+         MIN     0.7173    0.9460    0.8159      2055
+         ODE     0.0000    0.0000    0.0000       316
+         ROC     0.5869    0.7513    0.6590      2509
+         STR     0.0000    0.0000    0.0000       501
+
+   micro avg     0.5603    0.6777    0.6134      7518
+   macro avg     0.4433    0.4815    0.4529      7518
+weighted avg     0.5396    0.6777    0.5988      7518
+
+2025-06-14 03:19:21,702 - main.utils - INFO - compute_f1 - 143 : F1 : 0.6134119913315675, accuracy : 0.9458381430220465, precision : 0.5602595117659995, recall : 0.677706836924714
+INFO:main.utils:F1 : 0.6134119913315675, accuracy : 0.9458381430220465, precision : 0.5602595117659995, recall : 0.677706836924714
+2025-06-14 03:19:22,461 - main - INFO - train - 175 : Previous f1 score is 0.03026160085476959 and current f1 score is 0.6134119913315675, best model has been saved in saved_models/pytorch_model.bin
+INFO:main:Previous f1 score is 0.03026160085476959 and current f1 score is 0.6134119913315675, best model has been saved in saved_models/pytorch_model.bin
+Epoch 1/5:  60%|█████▉    | 483/807 [12:27<07:19,  1.36s/batch, Epoch Progress=59.9%, Overall=12.0%, Loss=3.9592]2025-06-14 03:21:15,950 - main - INFO - train - 164 : Epoch : 0, global_step : 483/4030, loss_value : 11.877588100314881
+INFO:main:Epoch : 0, global_step : 483/4030, loss_value : 11.877588100314881
+Epoch 1/5:  61%|██████    | 492/807 [12:39<07:01,  1.34s/batch, Epoch Progress=61.0%, Overall=12.2%, Loss=0.1586]E:\Desktop\引用代码合集-NER\NER-en-bert\my\preprocess.py:173: UserWarning: Sentence #9307 length 301 exceeds max_len 256 and has been truncated
+  warnings.warn(msg)
+Epoch 1/5:  80%|███████▉  | 644/807 [16:08<03:39,  1.35s/batch, Epoch Progress=79.8%, Overall=16.0%, Loss=1.8247]2025-06-14 03:24:57,064 - main - INFO - train - 164 : Epoch : 0, global_step : 644/4030, loss_value : 7.298801491719596
+INFO:main:Epoch : 0, global_step : 644/4030, loss_value : 7.298801491719596
+Epoch 1/5:  99%|█████████▉| 800/807 [19:40<00:09,  1.36s/batch, Epoch Progress=99.1%, Overall=19.8%, Loss=1.0230]2025-06-14 03:28:29,036 - main - INFO - predict - 50 : Evaluating the model...
+INFO:main:Evaluating the model...
+2025-06-14 03:28:33,417 - main - INFO - <module> - 46 : Using device cuda
+INFO:main:Using device cuda
+2025-06-14 03:28:37,795 - main - INFO - <module> - 46 : Using device cuda
+INFO:main:Using device cuda
+2025-06-14 03:28:42,218 - main - INFO - <module> - 46 : Using device cuda
+INFO:main:Using device cuda
+2025-06-14 03:28:46,669 - main - INFO - <module> - 46 : Using device cuda
+INFO:main:Using device cuda
+2025-06-14 03:29:35,963 - main.utils - INFO - compute_f1 - 142 :
+              precision    recall  f1-score   support
+
+         GTM     0.9207    0.9952    0.9565       210
+         LOC     0.8285    0.8827    0.8548      1927
+         MIN     0.8850    0.9620    0.9219      2055
+         ODE     0.6958    0.6804    0.6880       316
+         ROC     0.8462    0.9147    0.8791      2509
+         STR     0.4501    0.6307    0.5254       501
+
+   micro avg     0.8150    0.8929    0.8522      7518
+   macro avg     0.7711    0.8443    0.8043      7518
+weighted avg     0.8216    0.8929    0.8551      7518
+
+INFO:main.utils:
+              precision    recall  f1-score   support
+
+         GTM     0.9207    0.9952    0.9565       210
+         LOC     0.8285    0.8827    0.8548      1927
+         MIN     0.8850    0.9620    0.9219      2055
+         ODE     0.6958    0.6804    0.6880       316
+         ROC     0.8462    0.9147    0.8791      2509
+         STR     0.4501    0.6307    0.5254       501
+
+   micro avg     0.8150    0.8929    0.8522      7518
+   macro avg     0.7711    0.8443    0.8043      7518
+weighted avg     0.8216    0.8929    0.8551      7518
+
+2025-06-14 03:29:35,963 - main.utils - INFO - compute_f1 - 143 : F1 : 0.8521739130434783, accuracy : 0.9821136724687703, precision : 0.8149811824693456, recall : 0.8929236499068901
+INFO:main.utils:F1 : 0.8521739130434783, accuracy : 0.9821136724687703, precision : 0.8149811824693456, recall : 0.8929236499068901
+2025-06-14 03:29:36,752 - main - INFO - train - 175 : Previous f1 score is 0.6134119913315675 and current f1 score is 0.8521739130434783, best model has been saved in saved_models/pytorch_model.bin
+INFO:main:Previous f1 score is 0.6134119913315675 and current f1 score is 0.8521739130434783, best model has been saved in saved_models/pytorch_model.bin
+Epoch 1/5: 100%|█████████▉| 805/807 [20:54<00:12,  6.18s/batch, Epoch Progress=99.8%, Overall=20.0%, Loss=1.0462]2025-06-14 03:29:43,023 - main - INFO - train - 164 : Epoch : 0, global_step : 805/4030, loss_value : 5.231228407865726
+INFO:main:Epoch : 0, global_step : 805/4030, loss_value : 5.231228407865726
+Epoch 1/5: 100%|██████████| 807/807 [20:57<00:00,  1.56s/batch, Epoch Progress=100.0%, Overall=20.0%, Loss=0.0117]
+Epoch 2/5:   0%|          | 0/807 [00:00<?, ?batch/s]2025-06-14 03:29:50,658 - main - INFO - <module> - 46 : Using device cuda
+INFO:main:Using device cuda
+2025-06-14 03:29:55,122 - main - INFO - <module> - 46 : Using device cuda
+INFO:main:Using device cuda
+2025-06-14 03:29:59,568 - main - INFO - <module> - 46 : Using device cuda
+INFO:main:Using device cuda
+2025-06-14 03:30:04,029 - main - INFO - <module> - 46 : Using device cuda
+INFO:main:Using device cuda
+Epoch 2/5:  20%|█▉        | 161/807 [03:55<14:35,  1.36s/batch, Epoch Progress=20.0%, Overall=24.0%, Loss=3.8534]2025-06-14 03:33:42,049 - main - INFO - train - 164 : Epoch : 1, global_step : 968/4030, loss_value : 3.8533652243406875
+INFO:main:Epoch : 1, global_step : 968/4030, loss_value : 3.8533652243406875
+Epoch 2/5:  40%|███▉      | 322/807 [07:33<10:54,  1.35s/batch, Epoch Progress=39.9%, Overall=28.0%, Loss=1.6404]2025-06-14 03:37:20,354 - main - INFO - train - 164 : Epoch : 1, global_step : 1129/4030, loss_value : 3.2807970743001618
+INFO:main:Epoch : 1, global_step : 1129/4030, loss_value : 3.2807970743001618
+Epoch 2/5:  50%|████▉     | 400/807 [09:19<09:05,  1.34s/batch, Epoch Progress=49.6%, Overall=29.9%, Loss=0.5812]2025-06-14 03:39:06,072 - main - INFO - predict - 50 : Evaluating the model...
+INFO:main:Evaluating the model...
+2025-06-14 03:39:10,397 - main - INFO - <module> - 46 : Using device cuda
+INFO:main:Using device cuda
+2025-06-14 03:39:14,695 - main - INFO - <module> - 46 : Using device cuda
+INFO:main:Using device cuda
+2025-06-14 03:39:19,016 - main - INFO - <module> - 46 : Using device cuda
+INFO:main:Using device cuda
+2025-06-14 03:39:23,337 - main - INFO - <module> - 46 : Using device cuda
+INFO:main:Using device cuda
+2025-06-14 03:40:12,510 - main.utils - INFO - compute_f1 - 142 :
+              precision    recall  f1-score   support
+
+         GTM     0.9543    0.9952    0.9744       210
+         LOC     0.8980    0.9414    0.9192      1927
+         MIN     0.9574    0.9742    0.9658      2055
+         ODE     0.7374    0.9241    0.8202       316
+         ROC     0.8864    0.9458    0.9152      2509
+         STR     0.7138    0.8463    0.7744       501
+
+   micro avg     0.8896    0.9463    0.9170      7518
+   macro avg     0.8579    0.9378    0.8948      7518
+weighted avg     0.8929    0.9463    0.9183      7518
+
+INFO:main.utils:
+              precision    recall  f1-score   support
+
+         GTM     0.9543    0.9952    0.9744       210
+         LOC     0.8980    0.9414    0.9192      1927
+         MIN     0.9574    0.9742    0.9658      2055
+         ODE     0.7374    0.9241    0.8202       316
+         ROC     0.8864    0.9458    0.9152      2509
+         STR     0.7138    0.8463    0.7744       501
+
+   micro avg     0.8896    0.9463    0.9170      7518
+   macro avg     0.8579    0.9378    0.8948      7518
+weighted avg     0.8929    0.9463    0.9183      7518
+
+2025-06-14 03:40:12,510 - main.utils - INFO - compute_f1 - 143 : F1 : 0.9170480180470512, accuracy : 0.9877710092917471, precision : 0.8895835938476929, recall : 0.9462623038042033
+INFO:main.utils:F1 : 0.9170480180470512, accuracy : 0.9877710092917471, precision : 0.8895835938476929, recall : 0.9462623038042033
+2025-06-14 03:40:13,319 - main - INFO - train - 175 : Previous f1 score is 0.8521739130434783 and current f1 score is 0.9170480180470512, best model has been saved in saved_models/pytorch_model.bin
+INFO:main:Previous f1 score is 0.8521739130434783 and current f1 score is 0.9170480180470512, best model has been saved in saved_models/pytorch_model.bin
+Epoch 2/5:  51%|█████     | 410/807 [10:40<16:01,  2.42s/batch, Epoch Progress=50.8%, Overall=30.2%, Loss=0.6387]E:\Desktop\引用代码合集-NER\NER-en-bert\my\preprocess.py:173: UserWarning: Sentence #9307 length 301 exceeds max_len 256 and has been truncated
+  warnings.warn(msg)
+Epoch 2/5:  60%|█████▉    | 483/807 [12:19<07:17,  1.35s/batch, Epoch Progress=59.9%, Overall=32.0%, Loss=0.9628]2025-06-14 03:42:05,414 - main - INFO - train - 164 : Epoch : 1, global_step : 1290/4030, loss_value : 2.8882933877269674
+INFO:main:Epoch : 1, global_step : 1290/4030, loss_value : 2.8882933877269674
+Epoch 2/5:  80%|███████▉  | 644/807 [15:57<03:40,  1.35s/batch, Epoch Progress=79.8%, Overall=36.0%, Loss=0.6374]2025-06-14 03:45:43,821 - main - INFO - train - 164 : Epoch : 1, global_step : 1451/4030, loss_value : 2.549692774411314
+INFO:main:Epoch : 1, global_step : 1451/4030, loss_value : 2.549692774411314
+Epoch 2/5:  99%|█████████▉| 800/807 [19:29<00:09,  1.37s/batch, Epoch Progress=99.1%, Overall=39.8%, Loss=0.4646]2025-06-14 03:49:15,444 - main - INFO - predict - 50 : Evaluating the model...
+INFO:main:Evaluating the model...
+2025-06-14 03:49:19,735 - main - INFO - <module> - 46 : Using device cuda
+INFO:main:Using device cuda
+2025-06-14 03:49:24,045 - main - INFO - <module> - 46 : Using device cuda
+INFO:main:Using device cuda
+2025-06-14 03:49:28,342 - main - INFO - <module> - 46 : Using device cuda
+INFO:main:Using device cuda
+2025-06-14 03:49:32,684 - main - INFO - <module> - 46 : Using device cuda
+INFO:main:Using device cuda
+2025-06-14 03:50:21,812 - main.utils - INFO - compute_f1 - 142 :
+              precision    recall  f1-score   support
+
+         GTM     0.9543    0.9952    0.9744       210
+         LOC     0.9071    0.9632    0.9343      1927
+         MIN     0.9616    0.9859    0.9736      2055
+         ODE     0.8310    0.9335    0.8793       316
+         ROC     0.9190    0.9502    0.9344      2509
+         STR     0.8169    0.9082    0.8601       501
+
+   micro avg     0.9171    0.9610    0.9386      7518
+   macro avg     0.8983    0.9560    0.9260      7518
+weighted avg     0.9181    0.9610    0.9389      7518
+
+INFO:main.utils:
+              precision    recall  f1-score   support
+
+         GTM     0.9543    0.9952    0.9744       210
+         LOC     0.9071    0.9632    0.9343      1927
+         MIN     0.9616    0.9859    0.9736      2055
+         ODE     0.8310    0.9335    0.8793       316
+         ROC     0.9190    0.9502    0.9344      2509
+         STR     0.8169    0.9082    0.8601       501
+
+   micro avg     0.9171    0.9610    0.9386      7518
+   macro avg     0.8983    0.9560    0.9260      7518
+weighted avg     0.9181    0.9610    0.9389      7518
+
+2025-06-14 03:50:21,813 - main.utils - INFO - compute_f1 - 143 : F1 : 0.9385554689529748, accuracy : 0.9908682583402859, precision : 0.9171109418634171, recall : 0.9610268688480978
+INFO:main.utils:F1 : 0.9385554689529748, accuracy : 0.9908682583402859, precision : 0.9171109418634171, recall : 0.9610268688480978
+2025-06-14 03:50:22,605 - main - INFO - train - 175 : Previous f1 score is 0.9170480180470512 and current f1 score is 0.9385554689529748, best model has been saved in saved_models/pytorch_model.bin
+INFO:main:Previous f1 score is 0.9170480180470512 and current f1 score is 0.9385554689529748, best model has been saved in saved_models/pytorch_model.bin
+Epoch 2/5: 100%|█████████▉| 805/807 [20:42<00:12,  6.15s/batch, Epoch Progress=99.8%, Overall=40.0%, Loss=0.4799]2025-06-14 03:50:28,807 - main - INFO - train - 164 : Epoch : 1, global_step : 1612/4030, loss_value : 2.399433904553052
+INFO:main:Epoch : 1, global_step : 1612/4030, loss_value : 2.399433904553052
+Epoch 2/5: 100%|██████████| 807/807 [20:45<00:00,  1.54s/batch, Epoch Progress=100.0%, Overall=40.0%, Loss=0.0073]
+Epoch 3/5:   0%|          | 0/807 [00:00<?, ?batch/s]2025-06-14 03:50:36,429 - main - INFO - <module> - 46 : Using device cuda
+INFO:main:Using device cuda
+2025-06-14 03:50:40,924 - main - INFO - <module> - 46 : Using device cuda
+INFO:main:Using device cuda
+2025-06-14 03:50:45,368 - main - INFO - <module> - 46 : Using device cuda
+INFO:main:Using device cuda
+2025-06-14 03:50:49,883 - main - INFO - <module> - 46 : Using device cuda
+INFO:main:Using device cuda
+Epoch 3/5:  20%|█▉        | 161/807 [03:56<15:58,  1.48s/batch, Epoch Progress=20.0%, Overall=44.0%, Loss=1.8492]2025-06-14 03:54:28,273 - main - INFO - train - 164 : Epoch : 2, global_step : 1775/4030, loss_value : 1.8492094678167972
+INFO:main:Epoch : 2, global_step : 1775/4030, loss_value : 1.8492094678167972
+Epoch 3/5:  40%|███▉      | 322/807 [07:34<10:57,  1.35s/batch, Epoch Progress=39.9%, Overall=48.0%, Loss=0.9186]2025-06-14 03:58:06,581 - main - INFO - train - 164 : Epoch : 2, global_step : 1936/4030, loss_value : 1.8372459426429701
+INFO:main:Epoch : 2, global_step : 1936/4030, loss_value : 1.8372459426429701
+Epoch 3/5:  50%|████▉     | 400/807 [09:20<09:19,  1.37s/batch, Epoch Progress=49.6%, Overall=49.9%, Loss=0.3076]2025-06-14 03:59:52,631 - main - INFO - predict - 50 : Evaluating the model...
+INFO:main:Evaluating the model...
+2025-06-14 03:59:56,944 - main - INFO - <module> - 46 : Using device cuda
+INFO:main:Using device cuda
+2025-06-14 04:00:01,259 - main - INFO - <module> - 46 : Using device cuda
+INFO:main:Using device cuda
+2025-06-14 04:00:05,578 - main - INFO - <module> - 46 : Using device cuda
+INFO:main:Using device cuda
+2025-06-14 04:00:09,889 - main - INFO - <module> - 46 : Using device cuda
+INFO:main:Using device cuda
+2025-06-14 04:00:59,051 - main.utils - INFO - compute_f1 - 142 :
+              precision    recall  f1-score   support
+
+         GTM     0.9500    0.9952    0.9721       210
+         LOC     0.9353    0.9673    0.9510      1927
+         MIN     0.9635    0.9762    0.9698      2055
+         ODE     0.8296    0.9399    0.8813       316
+         ROC     0.9409    0.9777    0.9590      2509
+         STR     0.9004    0.9381    0.9189       501
+
+   micro avg     0.9379    0.9709    0.9541      7518
+   macro avg     0.9199    0.9657    0.9420      7518
+weighted avg     0.9385    0.9709    0.9543      7518
+
+INFO:main.utils:
+              precision    recall  f1-score   support
+
+         GTM     0.9500    0.9952    0.9721       210
+         LOC     0.9353    0.9673    0.9510      1927
+         MIN     0.9635    0.9762    0.9698      2055
+         ODE     0.8296    0.9399    0.8813       316
+         ROC     0.9409    0.9777    0.9590      2509
+         STR     0.9004    0.9381    0.9189       501
+
+   micro avg     0.9379    0.9709    0.9541      7518
+   macro avg     0.9199    0.9657    0.9420      7518
+weighted avg     0.9385    0.9709    0.9543      7518
+
+2025-06-14 04:00:59,051 - main.utils - INFO - compute_f1 - 143 : F1 : 0.9541176470588235, accuracy : 0.9926626055750483, precision : 0.9379336931380108, recall : 0.9708699122106943
+INFO:main.utils:F1 : 0.9541176470588235, accuracy : 0.9926626055750483, precision : 0.9379336931380108, recall : 0.9708699122106943
+2025-06-14 04:00:59,872 - main - INFO - train - 175 : Previous f1 score is 0.9385554689529748 and current f1 score is 0.9541176470588235, best model has been saved in saved_models/pytorch_model.bin
+INFO:main:Previous f1 score is 0.9385554689529748 and current f1 score is 0.9541176470588235, best model has been saved in saved_models/pytorch_model.bin
+Epoch 3/5:  56%|█████▌    | 451/807 [11:36<08:06,  1.37s/batch, Epoch Progress=55.9%, Overall=51.2%, Loss=0.4556]E:\Desktop\引用代码合集-NER\NER-en-bert\my\preprocess.py:173: UserWarning: Sentence #9307 length 301 exceeds max_len 256 and has been truncated
+  warnings.warn(msg)
+Epoch 3/5:  60%|█████▉    | 483/807 [12:19<07:20,  1.36s/batch, Epoch Progress=59.9%, Overall=52.0%, Loss=0.5175]2025-06-14 04:02:52,047 - main - INFO - train - 164 : Epoch : 2, global_step : 2097/4030, loss_value : 1.552569197571796
+INFO:main:Epoch : 2, global_step : 2097/4030, loss_value : 1.552569197571796
+Epoch 3/5:  80%|███████▉  | 644/807 [15:58<03:41,  1.36s/batch, Epoch Progress=79.8%, Overall=56.0%, Loss=0.3763]2025-06-14 04:06:30,503 - main - INFO - train - 164 : Epoch : 2, global_step : 2258/4030, loss_value : 1.5050019951340574
+INFO:main:Epoch : 2, global_step : 2258/4030, loss_value : 1.5050019951340574
+Epoch 3/5:  99%|█████████▉| 800/807 [19:29<00:09,  1.34s/batch, Epoch Progress=99.1%, Overall=59.8%, Loss=0.3020]2025-06-14 04:10:02,056 - main - INFO - predict - 50 : Evaluating the model...
+INFO:main:Evaluating the model...
+2025-06-14 04:10:06,349 - main - INFO - <module> - 46 : Using device cuda
+INFO:main:Using device cuda
+2025-06-14 04:10:10,690 - main - INFO - <module> - 46 : Using device cuda
+INFO:main:Using device cuda
+2025-06-14 04:10:14,992 - main - INFO - <module> - 46 : Using device cuda
+INFO:main:Using device cuda
+2025-06-14 04:10:19,330 - main - INFO - <module> - 46 : Using device cuda
+INFO:main:Using device cuda
+2025-06-14 04:11:08,434 - main.utils - INFO - compute_f1 - 142 :
+              precision    recall  f1-score   support
+
+         GTM     0.9587    0.9952    0.9766       210
+         LOC     0.9547    0.9730    0.9638      1927
+         MIN     0.9647    0.9830    0.9737      2055
+         ODE     0.8576    0.9335    0.8939       316
+         ROC     0.9563    0.9769    0.9665      2509
+         STR     0.9056    0.9381    0.9216       501
+
+   micro avg     0.9504    0.9737    0.9619      7518
+   macro avg     0.9329    0.9666    0.9494      7518
+weighted avg     0.9507    0.9737    0.9620      7518
+
+INFO:main.utils:
+              precision    recall  f1-score   support
+
+         GTM     0.9587    0.9952    0.9766       210
+         LOC     0.9547    0.9730    0.9638      1927
+         MIN     0.9647    0.9830    0.9737      2055
+         ODE     0.8576    0.9335    0.8939       316
+         ROC     0.9563    0.9769    0.9665      2509
+         STR     0.9056    0.9381    0.9216       501
+
+   micro avg     0.9504    0.9737    0.9619      7518
+   macro avg     0.9329    0.9666    0.9494      7518
+weighted avg     0.9507    0.9737    0.9620      7518
+
+2025-06-14 04:11:08,435 - main.utils - INFO - compute_f1 - 143 : F1 : 0.961892247043364, accuracy : 0.9935654936740689, precision : 0.9504024928589977, recall : 0.9736632083000798
+INFO:main.utils:F1 : 0.961892247043364, accuracy : 0.9935654936740689, precision : 0.9504024928589977, recall : 0.9736632083000798
+2025-06-14 04:11:09,222 - main - INFO - train - 175 : Previous f1 score is 0.9541176470588235 and current f1 score is 0.961892247043364, best model has been saved in saved_models/pytorch_model.bin
+INFO:main:Previous f1 score is 0.9541176470588235 and current f1 score is 0.961892247043364, best model has been saved in saved_models/pytorch_model.bin
+Epoch 3/5: 100%|█████████▉| 805/807 [20:43<00:12,  6.15s/batch, Epoch Progress=99.8%, Overall=60.0%, Loss=0.3048]2025-06-14 04:11:15,408 - main - INFO - train - 164 : Epoch : 2, global_step : 2419/4030, loss_value : 1.524128410386743
+INFO:main:Epoch : 2, global_step : 2419/4030, loss_value : 1.524128410386743
+Epoch 3/5: 100%|██████████| 807/807 [20:46<00:00,  1.54s/batch, Epoch Progress=100.0%, Overall=60.0%, Loss=0.0076]
+Epoch 4/5:   0%|          | 0/807 [00:00<?, ?batch/s]2025-06-14 04:11:23,040 - main - INFO - <module> - 46 : Using device cuda
+INFO:main:Using device cuda
+2025-06-14 04:11:27,505 - main - INFO - <module> - 46 : Using device cuda
+INFO:main:Using device cuda
+2025-06-14 04:11:32,077 - main - INFO - <module> - 46 : Using device cuda
+INFO:main:Using device cuda
+2025-06-14 04:11:36,703 - main - INFO - <module> - 46 : Using device cuda
+INFO:main:Using device cuda
+Epoch 4/5:  20%|█▉        | 161/807 [03:56<14:36,  1.36s/batch, Epoch Progress=20.0%, Overall=64.0%, Loss=1.1262]2025-06-14 04:15:15,001 - main - INFO - train - 164 : Epoch : 3, global_step : 2582/4030, loss_value : 1.1262253337765333
+INFO:main:Epoch : 3, global_step : 2582/4030, loss_value : 1.1262253337765333
+Epoch 4/5:  40%|███▉      | 322/807 [07:34<11:00,  1.36s/batch, Epoch Progress=39.9%, Overall=68.0%, Loss=0.5744]2025-06-14 04:18:53,359 - main - INFO - train - 164 : Epoch : 3, global_step : 2743/4030, loss_value : 1.148744855608259
+INFO:main:Epoch : 3, global_step : 2743/4030, loss_value : 1.148744855608259
+Epoch 4/5:  50%|████▉     | 400/807 [09:20<09:09,  1.35s/batch, Epoch Progress=49.6%, Overall=69.9%, Loss=0.2506]2025-06-14 04:20:39,065 - main - INFO - predict - 50 : Evaluating the model...
+INFO:main:Evaluating the model...
+2025-06-14 04:20:43,368 - main - INFO - <module> - 46 : Using device cuda
+INFO:main:Using device cuda
+2025-06-14 04:20:47,694 - main - INFO - <module> - 46 : Using device cuda
+INFO:main:Using device cuda
+2025-06-14 04:20:52,001 - main - INFO - <module> - 46 : Using device cuda
+INFO:main:Using device cuda
+2025-06-14 04:20:56,338 - main - INFO - <module> - 46 : Using device cuda
+INFO:main:Using device cuda
+2025-06-14 04:21:45,651 - main.utils - INFO - compute_f1 - 142 :
+              precision    recall  f1-score   support
+
+         GTM     0.9587    0.9952    0.9766       210
+         LOC     0.9515    0.9782    0.9647      1927
+         MIN     0.9616    0.9878    0.9746      2055
+         ODE     0.8423    0.9462    0.8912       316
+         ROC     0.9494    0.9801    0.9645      2509
+         STR     0.9149    0.9441    0.9293       501
+
+   micro avg     0.9463    0.9783    0.9621      7518
+   macro avg     0.9297    0.9719    0.9501      7518
+weighted avg     0.9468    0.9783    0.9622      7518
+
+INFO:main.utils:
+              precision    recall  f1-score   support
+
+         GTM     0.9587    0.9952    0.9766       210
+         LOC     0.9515    0.9782    0.9647      1927
+         MIN     0.9616    0.9878    0.9746      2055
+         ODE     0.8423    0.9462    0.8912       316
+         ROC     0.9494    0.9801    0.9645      2509
+         STR     0.9149    0.9441    0.9293       501
+
+   micro avg     0.9463    0.9783    0.9621      7518
+   macro avg     0.9297    0.9719    0.9501      7518
+weighted avg     0.9468    0.9783    0.9622      7518
+
+2025-06-14 04:21:45,651 - main.utils - INFO - compute_f1 - 143 : F1 : 0.962066710268149, accuracy : 0.9942169445809571, precision : 0.9463458569222851, recall : 0.9783187017823889
+INFO:main.utils:F1 : 0.962066710268149, accuracy : 0.9942169445809571, precision : 0.9463458569222851, recall : 0.9783187017823889
+2025-06-14 04:21:46,467 - main - INFO - train - 175 : Previous f1 score is 0.961892247043364 and current f1 score is 0.962066710268149, best model has been saved in saved_models/pytorch_model.bin
+INFO:main:Previous f1 score is 0.961892247043364 and current f1 score is 0.962066710268149, best model has been saved in saved_models/pytorch_model.bin
+Epoch 4/5:  60%|█████▉    | 483/807 [12:19<07:19,  1.36s/batch, Epoch Progress=59.9%, Overall=72.0%, Loss=0.3892]2025-06-14 04:23:38,564 - main - INFO - train - 164 : Epoch : 3, global_step : 2904/4030, loss_value : 1.167612235738624
+INFO:main:Epoch : 3, global_step : 2904/4030, loss_value : 1.167612235738624
+Epoch 4/5:  71%|███████   | 572/807 [14:20<05:17,  1.35s/batch, Epoch Progress=70.9%, Overall=74.2%, Loss=0.1554]E:\Desktop\引用代码合集-NER\NER-en-bert\my\preprocess.py:173: UserWarning: Sentence #9307 length 301 exceeds max_len 256 and has been truncated
+  warnings.warn(msg)
+Epoch 4/5:  80%|███████▉  | 644/807 [15:58<03:41,  1.36s/batch, Epoch Progress=79.8%, Overall=76.0%, Loss=0.2466]2025-06-14 04:27:17,134 - main - INFO - train - 164 : Epoch : 3, global_step : 3065/4030, loss_value : 0.9864129701756542
+INFO:main:Epoch : 3, global_step : 3065/4030, loss_value : 0.9864129701756542
+Epoch 4/5:  99%|█████████▉| 800/807 [19:29<00:09,  1.36s/batch, Epoch Progress=99.1%, Overall=79.8%, Loss=0.1853]2025-06-14 04:30:48,708 - main - INFO - predict - 50 : Evaluating the model...
+INFO:main:Evaluating the model...
+2025-06-14 04:30:53,080 - main - INFO - <module> - 46 : Using device cuda
+INFO:main:Using device cuda
+2025-06-14 04:30:57,397 - main - INFO - <module> - 46 : Using device cuda
+INFO:main:Using device cuda
+2025-06-14 04:31:01,739 - main - INFO - <module> - 46 : Using device cuda
+INFO:main:Using device cuda
+2025-06-14 04:31:06,066 - main - INFO - <module> - 46 : Using device cuda
+INFO:main:Using device cuda
+2025-06-14 04:31:55,389 - main.utils - INFO - compute_f1 - 142 :
+              precision    recall  f1-score   support
+
+         GTM     0.9587    0.9952    0.9766       210
+         LOC     0.9603    0.9798    0.9699      1927
+         MIN     0.9712    0.9839    0.9775      2055
+         ODE     0.8892    0.9652    0.9256       316
+         ROC     0.9653    0.9857    0.9754      2509
+         STR     0.9277    0.9481    0.9378       501
+
+   micro avg     0.9595    0.9806    0.9699      7518
+   macro avg     0.9454    0.9763    0.9605      7518
+weighted avg     0.9597    0.9806    0.9700      7518
+
+INFO:main.utils:
+              precision    recall  f1-score   support
+
+         GTM     0.9587    0.9952    0.9766       210
+         LOC     0.9603    0.9798    0.9699      1927
+         MIN     0.9712    0.9839    0.9775      2055
+         ODE     0.8892    0.9652    0.9256       316
+         ROC     0.9653    0.9857    0.9754      2509
+         STR     0.9277    0.9481    0.9378       501
+
+   micro avg     0.9595    0.9806    0.9699      7518
+   macro avg     0.9454    0.9763    0.9605      7518
+weighted avg     0.9597    0.9806    0.9700      7518
+
+2025-06-14 04:31:55,389 - main.utils - INFO - compute_f1 - 143 : F1 : 0.9699361884086573, accuracy : 0.9949941140839115, precision : 0.959521020434726, recall : 0.9805799414737962
+INFO:main.utils:F1 : 0.9699361884086573, accuracy : 0.9949941140839115, precision : 0.959521020434726, recall : 0.9805799414737962
+2025-06-14 04:31:56,184 - main - INFO - train - 175 : Previous f1 score is 0.962066710268149 and current f1 score is 0.9699361884086573, best model has been saved in saved_models/pytorch_model.bin
+INFO:main:Previous f1 score is 0.962066710268149 and current f1 score is 0.9699361884086573, best model has been saved in saved_models/pytorch_model.bin
+Epoch 4/5: 100%|█████████▉| 805/807 [20:43<00:12,  6.17s/batch, Epoch Progress=99.8%, Overall=80.0%, Loss=0.1872]2025-06-14 04:32:02,388 - main - INFO - train - 164 : Epoch : 3, global_step : 3226/4030, loss_value : 0.9358579712624876
+INFO:main:Epoch : 3, global_step : 3226/4030, loss_value : 0.9358579712624876
+Epoch 4/5: 100%|██████████| 807/807 [20:46<00:00,  1.55s/batch, Epoch Progress=100.0%, Overall=80.0%, Loss=0.0065]
+Epoch 5/5:   0%|          | 0/807 [00:00<?, ?batch/s]2025-06-14 04:32:10,021 - main - INFO - <module> - 46 : Using device cuda
+INFO:main:Using device cuda
+2025-06-14 04:32:14,495 - main - INFO - <module> - 46 : Using device cuda
+INFO:main:Using device cuda
+2025-06-14 04:32:18,964 - main - INFO - <module> - 46 : Using device cuda
+INFO:main:Using device cuda
+2025-06-14 04:32:23,422 - main - INFO - <module> - 46 : Using device cuda
+INFO:main:Using device cuda
+Epoch 5/5:  20%|█▉        | 161/807 [03:56<14:42,  1.37s/batch, Epoch Progress=20.0%, Overall=84.0%, Loss=0.8081]2025-06-14 04:36:01,753 - main - INFO - train - 164 : Epoch : 4, global_step : 3389/4030, loss_value : 0.8080694527359482
+INFO:main:Epoch : 4, global_step : 3389/4030, loss_value : 0.8080694527359482
+Epoch 5/5:  40%|███▉      | 322/807 [07:34<10:44,  1.33s/batch, Epoch Progress=39.9%, Overall=88.0%, Loss=0.3900]2025-06-14 04:39:40,114 - main - INFO - train - 164 : Epoch : 4, global_step : 3550/4030, loss_value : 0.7799829081718966
+INFO:main:Epoch : 4, global_step : 3550/4030, loss_value : 0.7799829081718966
+Epoch 5/5:  50%|████▉     | 400/807 [09:19<09:09,  1.35s/batch, Epoch Progress=49.6%, Overall=89.9%, Loss=0.1643]2025-06-14 04:41:25,691 - main - INFO - predict - 50 : Evaluating the model...
+INFO:main:Evaluating the model...
+2025-06-14 04:41:30,082 - main - INFO - <module> - 46 : Using device cuda
+INFO:main:Using device cuda
+2025-06-14 04:41:34,398 - main - INFO - <module> - 46 : Using device cuda
+INFO:main:Using device cuda
+2025-06-14 04:41:38,704 - main - INFO - <module> - 46 : Using device cuda
+INFO:main:Using device cuda
+2025-06-14 04:41:42,999 - main - INFO - <module> - 46 : Using device cuda
+INFO:main:Using device cuda
+2025-06-14 04:42:32,282 - main.utils - INFO - compute_f1 - 142 :
+              precision    recall  f1-score   support
+
+         GTM     0.9587    0.9952    0.9766       210
+         LOC     0.9608    0.9798    0.9702      1927
+         MIN     0.9721    0.9830    0.9775      2055
+         ODE     0.9050    0.9652    0.9342       316
+         ROC     0.9713    0.9857    0.9784      2509
+         STR     0.9390    0.9521    0.9455       501
+
+   micro avg     0.9634    0.9806    0.9719      7518
+   macro avg     0.9512    0.9768    0.9637      7518
+weighted avg     0.9635    0.9806    0.9720      7518
+
+INFO:main.utils:
+              precision    recall  f1-score   support
+
+         GTM     0.9587    0.9952    0.9766       210
+         LOC     0.9608    0.9798    0.9702      1927
+         MIN     0.9721    0.9830    0.9775      2055
+         ODE     0.9050    0.9652    0.9342       316
+         ROC     0.9713    0.9857    0.9784      2509
+         STR     0.9390    0.9521    0.9455       501
+
+   micro avg     0.9634    0.9806    0.9719      7518
+   macro avg     0.9512    0.9768    0.9637      7518
+weighted avg     0.9635    0.9806    0.9720      7518
+
+2025-06-14 04:42:32,282 - main.utils - INFO - compute_f1 - 143 : F1 : 0.9719182597231378, accuracy : 0.9952226933494863, precision : 0.96340825927862, recall : 0.9805799414737962
+INFO:main.utils:F1 : 0.9719182597231378, accuracy : 0.9952226933494863, precision : 0.96340825927862, recall : 0.9805799414737962
+2025-06-14 04:42:33,086 - main - INFO - train - 175 : Previous f1 score is 0.9699361884086573 and current f1 score is 0.9719182597231378, best model has been saved in saved_models/pytorch_model.bin
+INFO:main:Previous f1 score is 0.9699361884086573 and current f1 score is 0.9719182597231378, best model has been saved in saved_models/pytorch_model.bin
+Epoch 5/5:  52%|█████▏    | 423/807 [10:57<08:41,  1.36s/batch, Epoch Progress=52.4%, Overall=90.5%, Loss=0.1918]E:\Desktop\引用代码合集-NER\NER-en-bert\my\preprocess.py:173: UserWarning: Sentence #9307 length 301 exceeds max_len 256 and has been truncated
+  warnings.warn(msg)
+Epoch 5/5:  60%|█████▉    | 483/807 [12:19<07:19,  1.36s/batch, Epoch Progress=59.9%, Overall=92.0%, Loss=0.2637]2025-06-14 04:44:25,010 - main - INFO - train - 164 : Epoch : 4, global_step : 3711/4030, loss_value : 0.7911065424451177
+INFO:main:Epoch : 4, global_step : 3711/4030, loss_value : 0.7911065424451177
+Epoch 5/5:  80%|███████▉  | 644/807 [15:57<03:41,  1.36s/batch, Epoch Progress=79.8%, Overall=96.0%, Loss=0.1855]2025-06-14 04:48:03,500 - main - INFO - train - 164 : Epoch : 4, global_step : 3872/4030, loss_value : 0.7421922276479117
+INFO:main:Epoch : 4, global_step : 3872/4030, loss_value : 0.7421922276479117
+Epoch 5/5:  99%|█████████▉| 800/807 [19:29<00:09,  1.35s/batch, Epoch Progress=99.1%, Overall=99.8%, Loss=0.1703]2025-06-14 04:51:35,126 - main - INFO - predict - 50 : Evaluating the model...
+INFO:main:Evaluating the model...
+2025-06-14 04:51:39,444 - main - INFO - <module> - 46 : Using device cuda
+INFO:main:Using device cuda
+2025-06-14 04:51:43,782 - main - INFO - <module> - 46 : Using device cuda
+INFO:main:Using device cuda
+2025-06-14 04:51:48,116 - main - INFO - <module> - 46 : Using device cuda
+INFO:main:Using device cuda
+2025-06-14 04:51:52,469 - main - INFO - <module> - 46 : Using device cuda
+INFO:main:Using device cuda
+2025-06-14 04:52:41,526 - main.utils - INFO - compute_f1 - 142 :
+              precision    recall  f1-score   support
+
+         GTM     0.9587    0.9952    0.9766       210
+         LOC     0.9628    0.9803    0.9715      1927
+         MIN     0.9731    0.9864    0.9797      2055
+         ODE     0.9080    0.9684    0.9372       316
+         ROC     0.9683    0.9849    0.9765      2509
+         STR     0.9318    0.9541    0.9428       501
+
+   micro avg     0.9628    0.9816    0.9721      7518
+   macro avg     0.9504    0.9782    0.9640      7518
+weighted avg     0.9630    0.9816    0.9722      7518
+
+INFO:main.utils:
+              precision    recall  f1-score   support
+
+         GTM     0.9587    0.9952    0.9766       210
+         LOC     0.9628    0.9803    0.9715      1927
+         MIN     0.9731    0.9864    0.9797      2055
+         ODE     0.9080    0.9684    0.9372       316
+         ROC     0.9683    0.9849    0.9765      2509
+         STR     0.9318    0.9541    0.9428       501
+
+   micro avg     0.9628    0.9816    0.9721      7518
+   macro avg     0.9504    0.9782    0.9640      7518
+weighted avg     0.9630    0.9816    0.9722      7518
+
+2025-06-14 04:52:41,527 - main.utils - INFO - compute_f1 - 143 : F1 : 0.9721398933017189, accuracy : 0.9951998354229288, precision : 0.9628180039138943, recall : 0.9816440542697525
+INFO:main.utils:F1 : 0.9721398933017189, accuracy : 0.9951998354229288, precision : 0.9628180039138943, recall : 0.9816440542697525
+2025-06-14 04:52:42,322 - main - INFO - train - 175 : Previous f1 score is 0.9719182597231378 and current f1 score is 0.9721398933017189, best model has been saved in saved_models/pytorch_model.bin
+INFO:main:Previous f1 score is 0.9719182597231378 and current f1 score is 0.9721398933017189, best model has been saved in saved_models/pytorch_model.bin
+Epoch 5/5: 100%|█████████▉| 805/807 [20:42<00:12,  6.17s/batch, Epoch Progress=99.8%, Overall=100.0%, Loss=0.1720]2025-06-14 04:52:48,636 - main - INFO - train - 164 : Epoch : 4, global_step : 4033/4030, loss_value : 0.8599823676281094
+INFO:main:Epoch : 4, global_step : 4033/4030, loss_value : 0.8599823676281094
+Epoch 5/5: 100%|██████████| 807/807 [20:46<00:00,  1.54s/batch, Epoch Progress=100.0%, Overall=100.0%, Loss=0.0012]
+
+Process finished with exit code 0
+
