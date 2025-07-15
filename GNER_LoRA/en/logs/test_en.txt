@@ -1,0 +1,44 @@
+E:\CONDA20241126\conda\envs\pytorch\python.exe F:\NLP\NERdata-open_youhua\en\test.py 
+Loading trained model...
+Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.32it/s]
+Number of test set samples: 3195
+Predicting: 100%|██████████| 400/400 [57:45<00:00,  8.66s/it]
+
+>>>> compute_metrics called <<<<
+
+Evaluation metrics:
+Precision: 0.9883
+Recall: 0.9861
+F1 value: 0.9872
+
+Complete result dictionary:
+{
+  "precision": 0.9883,
+  "recall": 0.9861,
+  "f1": 0.9872
+}
+
+Prediction results of the first 3 samples:
+
+Sample 1:
+{'role': 'system', 'content': "You are an expert in text entity recognition. You need to extract 'mineral', 'rock',  'stratum', 'geological time', 'ore deposit', 'location'\n                 entities from a given sentence. Output in json format, such as {'entity_text': 'Cambrian', 'entity_label': 'stratum'} \n                 Note: 1. Each line of output must be a correct json string. \n                 2. When no entity is found, output 'No entity found'. "}
+
+{'role': 'user', 'content': 'text:regionally the southern cross greenstone belt is represented by two distinct greenstone horizons .'}
+
+{'role': 'assistant', 'content': "{'entity_text': 'southern cross', 'entity_label': 'location'}{'entity_text': 'greenstone belt', 'entity_label': 'stratum'}{'entity_text': 'greenstone', 'entity_label': 'rock'}"}
+
+Sample 2:
+{'role': 'system', 'content': "You are an expert in text entity recognition. You need to extract 'mineral', 'rock',  'stratum', 'geological time', 'ore deposit', 'location'\n                 entities from a given sentence. Output in json format, such as {'entity_text': 'Cambrian', 'entity_label': 'stratum'} \n                 Note: 1. Each line of output must be a correct json string. \n                 2. When no entity is found, output 'No entity found'. "}
+
+{'role': 'user', 'content': "text:ipa resources ltd and joint venture partners ( variously cra rio tinto and lynas gold ) completed significant work at cardinal 's gossan in the period 1986 to 1999 , although the gossan was outside joint venture tenements ."}
+
+{'role': 'assistant', 'content': "{'entity_text': 'gold', 'entity_label': 'mineral'}{'entity_text': 'gossan', 'entity_label': 'rock'}{'entity_text': 'gossan', 'entity_label': 'rock'}"}
+
+Sample 3:
+{'role': 'system', 'content': "You are an expert in text entity recognition. You need to extract 'mineral', 'rock',  'stratum', 'geological time', 'ore deposit', 'location'\n                 entities from a given sentence. Output in json format, such as {'entity_text': 'Cambrian', 'entity_label': 'stratum'} \n                 Note: 1. Each line of output must be a correct json string. \n                 2. When no entity is found, output 'No entity found'. "}
+
+{'role': 'user', 'content': 'text:overlying this less jindalee jv mt kilkenny 2007 13 consolidated zone is a hardcap duricrust of iron oxides .'}
+
+{'role': 'assistant', 'content': "{'entity_text': 'duricrust', 'entity_label': 'rock'}{'entity_text': 'iron', 'entity_label': 'mineral'}{'entity_text': 'oxides', 'entity_label': 'mineral'}"}
+
+Process finished with exit code 0
